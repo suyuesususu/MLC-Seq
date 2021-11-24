@@ -3,9 +3,13 @@
 ### Description
 The implementation of MLC-Seq algorithm
 
+
+### Requirements
+1. You must have Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
+2. Clone this repository. This project is downloaded and unzipped. Now the path of the project is ~/Downloads/MLS-Seq-main.
 ### Environment
-1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
-2. Create an virtual environment
+
+1. Create an virtual environment
    Open a terminal window and enter the following command line
 ```Bash
 python3 -m venv <your_virtual_workspace_path>
@@ -22,8 +26,8 @@ or
 ```Bash
 virtualenv -p python3 ~/Downloads/vir_env
 ```  
-3. Activate the virtual environment on Linux/MacOS
-   Following step 2 enter the following command:
+2. Activate the virtual environment on Linux/MacOS
+   Following step 1, enter the following command:
 ```Bash
 source <your_virtual_workspace_path>/bin/activate
 ```
@@ -38,13 +42,20 @@ source ~/Downloads/vir_env/bin/activate
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat    
-   
-4. Install all the required libraries.
+```Bash
+
+3. Install all the required libraries.
    First go to the root directory of this project, then use the following command to install all the required libraries
 ```Bash
 pip install -r requirements.txt
-```
-5. Run the project
+```Bash
+   In our case, the following command lines are used:
+```Bash
+cd ~/Downloads/MLC-Seq-main
+pip install -r requirements.txt
+```Bash
+
+4. Run the project
    Following step 
 ```Bash
 jupyter notebook
