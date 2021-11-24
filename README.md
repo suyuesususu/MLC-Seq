@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ```Bash
 jupyter notebook
 ```
-Now we are in jupyter and all the files in MLC-Seq-main are listed. We will be processing the data in this window.
+Now we are in jupyter and the main page of MLC-Seq is presented in your default browser. We will be processing the data in this window.
 "modules" includes main tools and algorithms used in the project.
 "samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.
 "examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.
