@@ -1,7 +1,7 @@
 # MLC-Seq
 
 ### Description
-the implementation of MLC-Seq algorithm
+The implementation of MLC-Seq algorithm
 
 ### Environment
 1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
