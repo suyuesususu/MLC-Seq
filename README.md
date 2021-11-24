@@ -34,9 +34,9 @@ source <your_virtual_workspace_path>/bin/activate
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat
-```
+```Bash
    In our case, the following command are used to activate the virtual environment(vir_env)
- ```Bash
+```Bash
 source ~/Downloads/vir_env/bin/activate
 ```
 or on Windows(cmd.exe)
