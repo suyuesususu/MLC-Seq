@@ -30,7 +30,7 @@ virtualenv -p python3 ~/Downloads/vir_env
    Following step 1, enter the following command:
 ```Bash
 source <your_virtual_workspace_path>/bin/activate
-```
+```Bash
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat
@@ -38,7 +38,7 @@ or on Windows(cmd.exe)
    In our case, the following command are used to activate the virtual environment(vir_env)
 ```Bash
 source ~/Downloads/vir_env/bin/activate
-```
+```Bash
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat    
