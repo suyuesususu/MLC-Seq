@@ -64,4 +64,3 @@ Now we are in jupyter and all the files in MLC-Seq-main are listed. We will be p
 "samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.
 "examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.
 
-#### a new title
