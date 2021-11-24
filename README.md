@@ -6,53 +6,71 @@ The implementation of MLC-Seq algorithm
 
 ### Requirements
 1. You must have Python3, Python version 3.5+ is required. Please download the python file and follow the instruction for installation. (https://www.python.org/downloads/)
-2. Clone this repository. This project is downloaded and unzipped. Now the path of the project is ~/Downloads/MLC-Seq-main.
+2. Clone this repository. This project is downloaded and unzipped.
+   In MacOS system, the path of the project is ~/Downloads/MLC-Seq-main. In Windows system, the path of the project is C:\MLC-Seq-main.
 ### Environment
-1. Create an virtual environment
-   Open a terminal window and enter the following command line
+# MLC-Seq
+
+### Description
+the implementation of MLC-Seq algorithm
+
+### Prepare the environment for Linux/MacOS
+1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
+2. Open the Terminal.
+3. Create an virtual environment by the following command
 ```Bash
 python3 -m venv <your_virtual_workspace_path>
 ```
-   In MacOS system, to make it simple we creat a "vir_env" as a virtual environment in "Downloads" folder. The command line is
+For example, if the virtual environment path is "~/Downloads/vir_env", simply run
 ```Bash
 python3 -m venv ~/Downloads/vir_env
 ```
-   In Windows system, enter the command line:
-```Bash
-
-```
-
-2. Activate the virtual environment on Linux/MacOS
-   Following step 1, enter the following command:
+4. Activate the virtual environment
 ```Bash
 source <your_virtual_workspace_path>/bin/activate
 ```
-or on Windows(cmd.exe)
-```Bash
-<your_virtual_workspace_path>\Scripts\activate.bat
-```
-   In our case, the following command are used to activate the virtual environment(vir_env)
+For example, 
 ```Bash
 source ~/Downloads/vir_env/bin/activate
 ```
-or on Windows(cmd.exe)
+5. Download this project(MLC-Seq), Usually you will download a zip file, just unzip it. Suppose you extract the project into your "Downloads" folder(Linux/MacOS), you will get your project path "~/Downloads/MLC-Seq" or "C:\MLC-Seq", Go to the root directory of this project
 ```Bash
-<your_virtual_workspace_path>\Scripts\activate.bat    
+cd ~/Downloads/MLC-Seq
 ```
-
-3. Install all the required libraries.
-   Following step2, first go to the root directory of this project, then use the following command to install all the required libraries
+6. use the following command to install all the required libraries
 ```Bash
 pip install -r requirements.txt
 ```
-   In our case, use the following command lines:
+
+### Prepare the environment for Windows
+1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
+2. Open the Command Prompt(cmd.exe).
+3. Create an virtual environment by the following command
 ```Bash
-cd ~/Downloads/MLC-Seq-main
+python3 -m venv <your_virtual_workspace_path>
+```
+For example, if the virtual environment path is "C:\vir_env"(Windows), simply run
+```Bash
+python3 -m venv C:\vir_env
+```
+4. Activate the virtual environment
+```Bash
+<your_virtual_workspace_path>\Scripts\activate.bat
+```
+For example, 
+```Bash
+C:\vir_env\Scripts\activate.bat
+```
+5. Download this project(MLC-Seq), Usually you will download a zip file, just unzip it. Suppose you extract the project into "C:\" folder, you will get your project path "C:\MLC-Seq", Go to the root directory of this project
+```Bash
+cd C:\MLC-Seq
+```
+6. use the following command to install all the required libraries
+```Bash
 pip install -r requirements.txt
 ```
-
-4. Run the MLC-Seq-main project.
-   Following step 3, enter the following command line:
+### Launch the project
+run the following command to launch the project, then the main page of MLC-Seq will be presented in your default browser.
 ```Bash
 jupyter notebook
 ```
