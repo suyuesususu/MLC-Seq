@@ -5,10 +5,9 @@ The implementation of MLC-Seq algorithm
 
 
 ### Requirements
-1. You must have Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
+1. You must have Python3, Python version 3.5+ is required. Please download the python file and follow the instruction for installation. (https://www.python.org/downloads/)
 2. Clone this repository. This project is downloaded and unzipped. Now the path of the project is ~/Downloads/MLC-Seq-main.
 ### Environment
-
 1. Create an virtual environment
    Open a terminal window and enter the following command line
 ```Bash
@@ -60,8 +59,9 @@ pip install -r requirements.txt
 ```Bash
 jupyter notebook
 ```
-Now we are in jupyter and all the files in MLC-Seq-main are listed.
-"modules" include main tools and algorithms used in the project.
+Now we are in jupyter and all the files in MLC-Seq-main are listed. We will be processing the data in this window.
+"modules" includes main tools and algorithms used in the project.
 "samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.
 "examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.
 
+#### a new title
