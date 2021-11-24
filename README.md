@@ -6,7 +6,7 @@ The implementation of MLC-Seq algorithm
 
 ### Requirements
 1. You must have Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
-2. Clone this repository. This project is downloaded and unzipped. Now the path of the project is ~/Downloads/MLS-Seq-main.
+2. Clone this repository. This project is downloaded and unzipped. Now the path of the project is ~/Downloads/MLC-Seq-main.
 ### Environment
 
 1. Create an virtual environment
@@ -30,33 +30,34 @@ virtualenv -p python3 ~/Downloads/vir_env
    Following step 1, enter the following command:
 ```Bash
 source <your_virtual_workspace_path>/bin/activate
-```Bash
+```
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat
-```Bash
+```
    In our case, the following command are used to activate the virtual environment(vir_env)
 ```Bash
 source ~/Downloads/vir_env/bin/activate
-```Bash
+```
 or on Windows(cmd.exe)
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat    
-```Bash
+```
 
 3. Install all the required libraries.
-   First go to the root directory of this project, then use the following command to install all the required libraries
+   Following step2, first go to the root directory of this project, then use the following command to install all the required libraries
 ```Bash
 pip install -r requirements.txt
 ```Bash
-   In our case, the following command lines are used:
+   In our case, use the following command lines:
 ```Bash
 cd ~/Downloads/MLC-Seq-main
 pip install -r requirements.txt
-```Bash
+```
 
-4. Run the project
-   Following step 
+4. Run the MLC-Seq-main project.
+   Following step 3, enter the following command line:
 ```Bash
 jupyter notebook
 ```
+Now we are in jupyter and all the files in MLC-Seq-main are listed.
