@@ -13,18 +13,15 @@ The implementation of MLC-Seq algorithm
 ```Bash
 python3 -m venv <your_virtual_workspace_path>
 ```
-or
-```Bash
-virtualenv -p python3 <your_virtual_workspace_path>
-```
    In MacOS system, to make it simple we creat a "vir_env" as a virtual environment in "Downloads" folder. The command line is
 ```Bash
 python3 -m venv ~/Downloads/vir_env
 ```
-or
+   In Windows system, enter the command line:
 ```Bash
-virtualenv -p python3 ~/Downloads/vir_env
-```  
+
+```
+
 2. Activate the virtual environment on Linux/MacOS
    Following step 1, enter the following command:
 ```Bash
