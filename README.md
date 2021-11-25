@@ -47,7 +47,7 @@ python3 -m venv C:\vir_env
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat
 ```
-Using the same case, the cammand is:
+Using the same case, the command is:
 ```Bash
 C:\vir_env\Scripts\activate.bat
 ```
