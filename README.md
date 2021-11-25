@@ -1,7 +1,7 @@
 # MLC-Seq
 
 ### Description
-The implementation of MLC-Seq algorithm
+The implementation of MLC-Seq algorithms.
 
 
 ### Requirements
