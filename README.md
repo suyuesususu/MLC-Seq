@@ -9,73 +9,60 @@ The implementation of MLC-Seq algorithm
 2. Clone this repository. This project is downloaded and unzipped.
    In MacOS system, the path of the project is ~/Downloads/MLC-Seq-main. In Windows system, the path of the project is C:\MLC-Seq-main.
 ### Environment
-# MLC-Seq
 
-### Description
-the implementation of MLC-Seq algorithm
-
-### Prepare the environment for Linux/MacOS
-1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
-2. Open the Terminal.
-3. Create an virtual environment by the following command
+#### Prepare the environment for Linux/MacOS
+1. Open the Terminal.
+2. Create an virtual environment by the following command
 ```Bash
 python3 -m venv <your_virtual_workspace_path>
 ```
-For example, if the virtual environment path is "~/Downloads/vir_env", simply run
+To make it simple we can setup the virtual environment "vir_env" in "Downloads", enter the command:
 ```Bash
 python3 -m venv ~/Downloads/vir_env
 ```
-4. Activate the virtual environment
+3. Activate the virtual environment
 ```Bash
 source <your_virtual_workspace_path>/bin/activate
 ```
-For example, 
+Using the same case, the command is:
 ```Bash
 source ~/Downloads/vir_env/bin/activate
 ```
-5. Download this project(MLC-Seq), Usually you will download a zip file, just unzip it. Suppose you extract the project into your "Downloads" folder(Linux/MacOS), you will get your project path "~/Downloads/MLC-Seq" or "C:\MLC-Seq", Go to the root directory of this project
+4. Go to the root directory of this project MLC-Seq-mian and install all the required libraries.
 ```Bash
-cd ~/Downloads/MLC-Seq
-```
-6. use the following command to install all the required libraries
-```Bash
+cd ~/Downloads/MLC-Seq-main
 pip install -r requirements.txt
 ```
-
-### Prepare the environment for Windows
-1. Download and install Python3, Python version 3.5+ is required. (https://www.python.org/downloads/)
-2. Open the Command Prompt(cmd.exe).
-3. Create an virtual environment by the following command
+#### Prepare the environment for Windows
+1. Open the Command Prompt(cmd.exe).
+2. Create an virtual environment by the following command
 ```Bash
 python3 -m venv <your_virtual_workspace_path>
 ```
-For example, if the virtual environment path is "C:\vir_env"(Windows), simply run
+To make it simple we can setup the virtual environment "vir_env" in C drive, enter the command:
 ```Bash
 python3 -m venv C:\vir_env
 ```
-4. Activate the virtual environment
+3. Activate the virtual environment
 ```Bash
 <your_virtual_workspace_path>\Scripts\activate.bat
 ```
-For example, 
+Using the same case, the cammand is:
 ```Bash
 C:\vir_env\Scripts\activate.bat
 ```
-5. Download this project(MLC-Seq), Usually you will download a zip file, just unzip it. Suppose you extract the project into "C:\" folder, you will get your project path "C:\MLC-Seq", Go to the root directory of this project
+4. Go to the root directory of this project and install all the required libraries.
 ```Bash
-cd C:\MLC-Seq
-```
-6. use the following command to install all the required libraries
-```Bash
+cd C:\MLC-Seq-main
 pip install -r requirements.txt
 ```
 ### Launch the project
-run the following command to launch the project, then the main page of MLC-Seq will be presented in your default browser.
+Run the following command to launch the project, the main page of MLC-Seq-main will be presented in your default browser.
 ```Bash
 jupyter notebook
 ```
-Now we are in jupyter and the main page of MLC-Seq is presented in your default browser. We will be processing the data in this window.
-"modules" includes main tools and algorithms used in the project.
-"samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.
-"examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.
+Now we are in jupyter and the main page of MLC-Seq is presented in your default browser. We will be processing the data in this window.<br>
+"modules" includes main tools and algorithms used in the project.<br>
+"samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.<br>
+"examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.<br>
 
