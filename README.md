@@ -63,6 +63,6 @@ jupyter notebook
 ```
 Now we are in jupyter and the main page of MLC-Seq is presented in your default browser. We will be processing the data in this window.<br>
 "modules" includes main tools and algorithms used in the project.<br>
-"samples" has 3 folders, they are the deconvoluted results for tRNA-Phe, Glu and Gln.<br>
+"samples" has 3 folders, they are the deconvoluted datasets for tRNA-Phe, Glu and Gln.<br>
 "examples" has one application (.ipnyb) and two excel sheets. The application of trna_phe_analysis.ipynb presents the data processing using tRNA-Phe as an example. The two excel sheets are the rough data for 5´ and 3´-end used in the application.<br>
 
