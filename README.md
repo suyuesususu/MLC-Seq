@@ -6,7 +6,7 @@ The implementation of MLC-Seq algorithm
 
 ### Requirements
 1. You must have Python3, Python version 3.5+ is required. Please download the python file and follow the instruction for installation. (https://www.python.org/downloads/)
-2. Clone this repository. This project is downloaded and unzipped.
+2. Clone this repository. Click the green button "Code" and click the "Download ZIP" button. Unzip the file.
    In MacOS system, the path of the project is ~/Downloads/MLC-Seq-main. In Windows system, the path of the project is C:\MLC-Seq-main.
 ### Environment
 
